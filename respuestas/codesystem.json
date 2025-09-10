@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "809695",
+  "meta": {
+      "versionId": "1",
+      "lastUpdated": "2025-09-10T00:45:33.799+00:00",
+      "source": "#lIBdrvUtKklA6x6E"
+  },
+  "url": "http://hl7peru.org/fhir/CodeSystem/lab_david_m4",
+  "version": "1.0.0",
+  "name": "lab_david_m4",
+  "status": "active",
+  "content": "complete",
+  "concept": [
+      {
+          "code": "HB",
+          "display": "Hemoglobina"
+      },
+      {
+          "code": "GLU",
+          "display": "Glucosa en sangre"
+      },
+      {
+          "code": "CHOL",
+          "display": "Colesterol total"
+      }
+  ]
+}

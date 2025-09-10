@@ -1,0 +1,58 @@
+{
+  "resourceType": "ValueSet",
+  "id": "809696",
+  "meta": {
+      "extension": [
+          {
+              "url": "http://hapifhir.io/fhir/StructureDefinition/valueset-expansion-message",
+              "valueString": "ValueSet was expanded using an expansion that was pre-calculated at 2025-09-10T00:52:13.102+00:00"
+          }
+      ],
+      "versionId": "1"
+  },
+  "url": "http://hl7peru.org/fhir/ValueSet/lab_david_m4",
+  "status": "active",
+  "compose": {
+      "include": [
+          {
+              "system": "http://hl7peru.org/fhir/CodeSystem/lab_david_m4"
+          }
+      ]
+  },
+  "expansion": {
+      "identifier": "c7f6c1c5-017d-427e-88c3-bfb756779a9f",
+      "timestamp": "2025-09-10T02:50:57+00:00",
+      "total": 3,
+      "offset": 0,
+      "parameter": [
+          {
+              "name": "offset",
+              "valueInteger": 0
+          },
+          {
+              "name": "count",
+              "valueInteger": 1000
+          }
+      ],
+      "contains": [
+          {
+              "system": "http://hl7peru.org/fhir/CodeSystem/lab_david_m4",
+              "version": "1.0.0",
+              "code": "HB",
+              "display": "Hemoglobina"
+          },
+          {
+              "system": "http://hl7peru.org/fhir/CodeSystem/lab_david_m4",
+              "version": "1.0.0",
+              "code": "CHOL",
+              "display": "Colesterol total"
+          },
+          {
+              "system": "http://hl7peru.org/fhir/CodeSystem/lab_david_m4",
+              "version": "1.0.0",
+              "code": "GLU",
+              "display": "Glucosa en sangre"
+          }
+      ]
+  }
+}
